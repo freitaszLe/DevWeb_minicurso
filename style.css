@@ -163,7 +163,7 @@ td, th {
 	font-size: 2em;
 	margin: 0  0 1em;
 	clear: left;
-	
+	text-shadow: 1.5px 1px 20px #074986;
 }
 
 .principal {
@@ -234,6 +234,7 @@ td, th {
 	width: 60%;
 	opacity: 0.5;
 	transition: 2s;
+	box-shadow: 10px 10px 10px 5px  #000000;
 }
 .imagembeneficios:hover{
 	opacity: 1;
@@ -248,3 +249,17 @@ main > p {
 	
 }
 
+@media screen and (max-width:390px){
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+		width: auto;
+	}
+	h1{
+		text-align: center;
+	}
+	nav{
+		position: static;
+	}
+	.lista-beneficios, .imagembeneficiosss{
+		width: 100%;
+	}
+}
